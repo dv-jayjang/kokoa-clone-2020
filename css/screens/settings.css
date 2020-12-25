@@ -1,0 +1,48 @@
+
+.settings-list {
+    padding: 20px 0px;
+    border-bottom: var(--main-border);
+}
+.settings-list:last-child {
+    border-bottom: none;
+}
+
+.settings__setting {
+    margin-bottom: 7px;
+    padding: 20px 0px;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings__setting i {
+    margin-right: 15px;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+.settings__setting-column {
+    position: relative;
+}
+
+.settings__setting-column:last-child {
+    color: var(--main-grey-color);
+}
+
+
+.settings__setting-badge {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    right: -40px;
+    top: -2px;
+}
+

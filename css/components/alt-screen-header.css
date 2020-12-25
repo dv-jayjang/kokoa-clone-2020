@@ -1,0 +1,39 @@
+
+.alt-header {
+    padding: var(--horizontal-space);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alt-header__column {
+    width: 100%;
+}
+
+.alt-header__title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.onclick-back {
+    cursor: pointer;
+}
+
+.alt-header__column:first-child{
+    margin-right: auto;
+}
+
+.alt-header__column:nth-child(2) {
+    text-align: center;
+}
+
+.alt-header__column:last-child{
+    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alt-header__column span:last-child {
+    margin-left: 20px;
+}

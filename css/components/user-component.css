@@ -1,6 +1,13 @@
 
 .user-component {
     justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.user-component__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .user-component__column {
